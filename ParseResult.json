@@ -1,0 +1,902 @@
+[
+    {
+        "id": "1",
+        "coin": {
+            "NAME": "Bitcoin",
+            "SYMBOL": "BTC",
+            "PRICE": "$29,677.66",
+            "MARKET_CAP": "$574,570,535,355"
+        }
+    },
+    {
+        "id": "2",
+        "coin": {
+            "NAME": "Ethereum",
+            "SYMBOL": "ETH",
+            "PRICE": "$1,924.05",
+            "MARKET_CAP": "$231,649,105,129"
+        }
+    },
+    {
+        "id": "3",
+        "coin": {
+            "NAME": "Tether",
+            "SYMBOL": "USDT",
+            "PRICE": "$1.00",
+            "MARKET_CAP": "$81,759,885,892"
+        }
+    },
+    {
+        "id": "4",
+        "coin": {
+            "NAME": "BNB",
+            "SYMBOL": "BNB",
+            "PRICE": "$330.11",
+            "MARKET_CAP": "$51,558,196,028"
+        }
+    },
+    {
+        "id": "5",
+        "coin": {
+            "NAME": "USD Coin",
+            "SYMBOL": "USDC",
+            "PRICE": "$1.00",
+            "MARKET_CAP": "$30,514,593,046"
+        }
+    },
+    {
+        "id": "6",
+        "coin": {
+            "NAME": "XRP",
+            "SYMBOL": "XRP",
+            "PRICE": "$0.4805",
+            "MARKET_CAP": "$24,846,850,806"
+        }
+    },
+    {
+        "id": "7",
+        "coin": {
+            "NAME": "Cardano",
+            "SYMBOL": "ADA",
+            "PRICE": "$0.4134",
+            "MARKET_CAP": "$14,392,583,767"
+        }
+    },
+    {
+        "id": "8",
+        "coin": {
+            "NAME": "Dogecoin",
+            "SYMBOL": "DOGE",
+            "PRICE": "$0.08147",
+            "MARKET_CAP": "$11,324,541,279"
+        }
+    },
+    {
+        "id": "9",
+        "coin": {
+            "NAME": "Polygon",
+            "SYMBOL": "MATIC",
+            "PRICE": "$1.01",
+            "MARKET_CAP": "$9,340,705,612"
+        }
+    },
+    {
+        "id": "10",
+        "coin": {
+            "NAME": "Solana",
+            "SYMBOL": "SOL",
+            "PRICE": "$23.80",
+            "MARKET_CAP": "$9,323,562,647"
+        }
+    },
+    {
+        "id": "11",
+        "coin": {
+            "NAME": "Polkadot",
+            "SYMBOL": "DOT",
+            "PRICE": "$6.04",
+            "MARKET_CAP": "$7,125,757,561"
+        }
+    },
+    {
+        "id": "12",
+        "coin": {
+            "NAME": "Litecoin",
+            "SYMBOL": "LTC",
+            "PRICE": "$90.94",
+            "MARKET_CAP": "$6,610,525,598"
+        }
+    },
+    {
+        "id": "13",
+        "coin": {
+            "NAME": "Binance USD",
+            "SYMBOL": "BUSD",
+            "PRICE": "$1.00",
+            "MARKET_CAP": "$6,199,458,610"
+        }
+    },
+    {
+        "id": "14",
+        "coin": {
+            "NAME": "TRON",
+            "SYMBOL": "TRX",
+            "PRICE": "$0.06786",
+            "MARKET_CAP": "$6,150,246,183"
+        }
+    },
+    {
+        "id": "15",
+        "coin": {
+            "NAME": "Shiba Inu",
+            "SYMBOL": "SHIB",
+            "PRICE": "$0.00001029",
+            "MARKET_CAP": "$6,063,334,118"
+        }
+    },
+    {
+        "id": "16",
+        "coin": {
+            "NAME": "Avalanche",
+            "SYMBOL": "AVAX",
+            "PRICE": "$17.70",
+            "MARKET_CAP": "$5,807,251,383"
+        }
+    },
+    {
+        "id": "17",
+        "coin": {
+            "NAME": "Dai",
+            "SYMBOL": "DAI",
+            "PRICE": "$0.9999",
+            "MARKET_CAP": "$4,922,466,913"
+        }
+    },
+    {
+        "id": "18",
+        "coin": {
+            "NAME": "Wrapped Bitcoin",
+            "SYMBOL": "WBTC",
+            "PRICE": "$29,760.46",
+            "MARKET_CAP": "$4,581,956,887"
+        }
+    },
+    {
+        "id": "19",
+        "coin": {
+            "NAME": "Chainlink",
+            "SYMBOL": "LINK",
+            "PRICE": "$7.28",
+            "MARKET_CAP": "$3,757,866,398"
+        }
+    },
+    {
+        "id": "20",
+        "coin": {
+            "NAME": "Cosmos",
+            "SYMBOL": "ATOM",
+            "PRICE": "$11.86",
+            "MARKET_CAP": "$3,389,550,976"
+        }
+    },
+    {
+        "id": "21",
+        "coin": {
+            "NAME": "UNUS SED LEO",
+            "SYMBOL": "LEO",
+            "PRICE": "$3.60",
+            "MARKET_CAP": "$3,347,995,359"
+        }
+    },
+    {
+        "id": "22",
+        "coin": {
+            "NAME": "Uniswap",
+            "SYMBOL": "UNI",
+            "PRICE": "$5.62",
+            "MARKET_CAP": "$3,241,738,282"
+        }
+    },
+    {
+        "id": "23",
+        "coin": {
+            "NAME": "Monero",
+            "SYMBOL": "XMR",
+            "PRICE": "$155.70",
+            "MARKET_CAP": "$2,844,448,962"
+        }
+    },
+    {
+        "id": "24",
+        "coin": {
+            "NAME": "Internet Computer",
+            "SYMBOL": "ICP",
+            "PRICE": "$6.53",
+            "MARKET_CAP": "$2,836,946,926"
+        }
+    },
+    {
+        "id": "25",
+        "coin": {
+            "NAME": "OKB",
+            "SYMBOL": "OKB",
+            "PRICE": "$47.32",
+            "MARKET_CAP": "$2,839,011,976"
+        }
+    },
+    {
+        "id": "26",
+        "coin": {
+            "NAME": "Ethereum Classic",
+            "SYMBOL": "ETC",
+            "PRICE": "$19.89",
+            "MARKET_CAP": "$2,798,805,088"
+        }
+    },
+    {
+        "id": "27",
+        "coin": {
+            "NAME": "Toncoin",
+            "SYMBOL": "TON",
+            "PRICE": "$2.17",
+            "MARKET_CAP": "$2,650,565,399"
+        }
+    },
+    {
+        "id": "28",
+        "coin": {
+            "NAME": "Stellar",
+            "SYMBOL": "XLM",
+            "PRICE": "$0.09565",
+            "MARKET_CAP": "$2,559,300,863"
+        }
+    },
+    {
+        "id": "29",
+        "coin": {
+            "NAME": "Filecoin",
+            "SYMBOL": "FIL",
+            "PRICE": "$5.58",
+            "MARKET_CAP": "$2,345,321,411"
+        }
+    },
+    {
+        "id": "30",
+        "coin": {
+            "NAME": "Bitcoin Cash",
+            "SYMBOL": "BCH",
+            "PRICE": "$120.23",
+            "MARKET_CAP": "$2,329,835,298"
+        }
+    },
+    {
+        "id": "31",
+        "coin": {
+            "NAME": "Aptos",
+            "SYMBOL": "APT",
+            "PRICE": "$10.65",
+            "MARKET_CAP": "$2,014,608,347"
+        }
+    },
+    {
+        "id": "32",
+        "coin": {
+            "NAME": "Hedera",
+            "SYMBOL": "HBAR",
+            "PRICE": "$0.06469",
+            "MARKET_CAP": "$2,021,150,537"
+        }
+    },
+    {
+        "id": "33",
+        "coin": {
+            "NAME": "TrueUSD",
+            "SYMBOL": "TUSD",
+            "PRICE": "$1.00",
+            "MARKET_CAP": "$1,998,244,428"
+        }
+    },
+    {
+        "id": "34",
+        "coin": {
+            "NAME": "Cronos",
+            "SYMBOL": "CRO",
+            "PRICE": "$0.07491",
+            "MARKET_CAP": "$1,893,082,566"
+        }
+    },
+    {
+        "id": "35",
+        "coin": {
+            "NAME": "Lido DAO",
+            "SYMBOL": "LDO",
+            "PRICE": "$2.09",
+            "MARKET_CAP": "$1,833,909,748"
+        }
+    },
+    {
+        "id": "36",
+        "coin": {
+            "NAME": "Arbitrum",
+            "SYMBOL": "ARB",
+            "PRICE": "$1.41",
+            "MARKET_CAP": "$1,796,806,988"
+        }
+    },
+    {
+        "id": "37",
+        "coin": {
+            "NAME": "NEAR Protocol",
+            "SYMBOL": "NEAR",
+            "PRICE": "$1.97",
+            "MARKET_CAP": "$1,761,180,768"
+        }
+    },
+    {
+        "id": "38",
+        "coin": {
+            "NAME": "VeChain",
+            "SYMBOL": "VET",
+            "PRICE": "$0.02274",
+            "MARKET_CAP": "$1,647,894,023"
+        }
+    },
+    {
+        "id": "39",
+        "coin": {
+            "NAME": "ApeCoin",
+            "SYMBOL": "APE",
+            "PRICE": "$4.07",
+            "MARKET_CAP": "$1,498,860,321"
+        }
+    },
+    {
+        "id": "40",
+        "coin": {
+            "NAME": "Quant",
+            "SYMBOL": "QNT",
+            "PRICE": "$116.42",
+            "MARKET_CAP": "$1,405,375,946"
+        }
+    },
+    {
+        "id": "41",
+        "coin": {
+            "NAME": "Algorand",
+            "SYMBOL": "ALGO",
+            "PRICE": "$0.1839",
+            "MARKET_CAP": "$1,331,781,517"
+        }
+    },
+    {
+        "id": "42",
+        "coin": {
+            "NAME": "The Graph",
+            "SYMBOL": "GRT",
+            "PRICE": "$0.1396",
+            "MARKET_CAP": "$1,247,703,851"
+        }
+    },
+    {
+        "id": "43",
+        "coin": {
+            "NAME": "Fantom",
+            "SYMBOL": "FTM",
+            "PRICE": "$0.4352",
+            "MARKET_CAP": "$1,213,163,971"
+        }
+    },
+    {
+        "id": "44",
+        "coin": {
+            "NAME": "EOS",
+            "SYMBOL": "EOS",
+            "PRICE": "$1.05",
+            "MARKET_CAP": "$1,138,656,216"
+        }
+    },
+    {
+        "id": "45",
+        "coin": {
+            "NAME": "The Sandbox",
+            "SYMBOL": "SAND",
+            "PRICE": "$0.5917",
+            "MARKET_CAP": "$1,085,065,347"
+        }
+    },
+    {
+        "id": "46",
+        "coin": {
+            "NAME": "MultiversX",
+            "SYMBOL": "EGLD",
+            "PRICE": "$41.95",
+            "MARKET_CAP": "$1,063,377,583"
+        }
+    },
+    {
+        "id": "47",
+        "coin": {
+            "NAME": "Aave",
+            "SYMBOL": "AAVE",
+            "PRICE": "$72.32",
+            "MARKET_CAP": "$1,039,311,993"
+        }
+    },
+    {
+        "id": "48",
+        "coin": {
+            "NAME": "Decentraland",
+            "SYMBOL": "MANA",
+            "PRICE": "$0.5524",
+            "MARKET_CAP": "$1,037,552,360"
+        }
+    },
+    {
+        "id": "49",
+        "coin": {
+            "NAME": "Theta Network",
+            "SYMBOL": "THETA",
+            "PRICE": "$1.02",
+            "MARKET_CAP": "$1,019,754,164"
+        }
+    },
+    {
+        "id": "50",
+        "coin": {
+            "NAME": "Stacks",
+            "SYMBOL": "STX",
+            "PRICE": "$0.7297",
+            "MARKET_CAP": "$1,003,241,173"
+        }
+    },
+    {
+        "id": "51",
+        "coin": {
+            "NAME": "Pax Dollar",
+            "SYMBOL": "USDP",
+            "PRICE": "$1.01",
+            "MARKET_CAP": "$975,859,479"
+        }
+    },
+    {
+        "id": "52",
+        "coin": {
+            "NAME": "Tezos",
+            "SYMBOL": "XTZ",
+            "PRICE": "$1.03",
+            "MARKET_CAP": "$961,637,968"
+        }
+    },
+    {
+        "id": "53",
+        "coin": {
+            "NAME": "Flow",
+            "SYMBOL": "FLOW",
+            "PRICE": "$0.9082",
+            "MARKET_CAP": "$940,813,257"
+        }
+    },
+    {
+        "id": "54",
+        "coin": {
+            "NAME": "Axie Infinity",
+            "SYMBOL": "AXS",
+            "PRICE": "$8.03",
+            "MARKET_CAP": "$933,006,933"
+        }
+    },
+    {
+        "id": "55",
+        "coin": {
+            "NAME": "Conflux",
+            "SYMBOL": "CFX",
+            "PRICE": "$0.3315",
+            "MARKET_CAP": "$923,780,530"
+        }
+    },
+    {
+        "id": "56",
+        "coin": {
+            "NAME": "Immutable",
+            "SYMBOL": "IMX",
+            "PRICE": "$1.01",
+            "MARKET_CAP": "$922,532,823"
+        }
+    },
+    {
+        "id": "57",
+        "coin": {
+            "NAME": "BitDAO",
+            "SYMBOL": "BIT",
+            "PRICE": "$0.5003",
+            "MARKET_CAP": "$922,767,638"
+        }
+    },
+    {
+        "id": "58",
+        "coin": {
+            "NAME": "Render Token",
+            "SYMBOL": "RNDR",
+            "PRICE": "$2.51",
+            "MARKET_CAP": "$912,819,566"
+        }
+    },
+    {
+        "id": "59",
+        "coin": {
+            "NAME": "Rocket Pool",
+            "SYMBOL": "RPL",
+            "PRICE": "$47.28",
+            "MARKET_CAP": "$912,822,530"
+        }
+    },
+    {
+        "id": "60",
+        "coin": {
+            "NAME": "Chiliz",
+            "SYMBOL": "CHZ",
+            "PRICE": "$0.1284",
+            "MARKET_CAP": "$891,311,962"
+        }
+    },
+    {
+        "id": "61",
+        "coin": {
+            "NAME": "KuCoin Token",
+            "SYMBOL": "KCS",
+            "PRICE": "$8.13",
+            "MARKET_CAP": "$788,554,057"
+        }
+    },
+    {
+        "id": "62",
+        "coin": {
+            "NAME": "Curve DAO Token",
+            "SYMBOL": "CRV",
+            "PRICE": "$0.9421",
+            "MARKET_CAP": "$763,198,332"
+        }
+    },
+    {
+        "id": "63",
+        "coin": {
+            "NAME": "Neo",
+            "SYMBOL": "NEO",
+            "PRICE": "$10.78",
+            "MARKET_CAP": "$759,958,368"
+        }
+    },
+    {
+        "id": "64",
+        "coin": {
+            "NAME": "USDD",
+            "SYMBOL": "USDD",
+            "PRICE": "$0.9896",
+            "MARKET_CAP": "$717,888,817"
+        }
+    },
+    {
+        "id": "65",
+        "coin": {
+            "NAME": "Klaytn",
+            "SYMBOL": "KLAY",
+            "PRICE": "$0.2269",
+            "MARKET_CAP": "$701,362,918"
+        }
+    },
+    {
+        "id": "66",
+        "coin": {
+            "NAME": "Optimism",
+            "SYMBOL": "OP",
+            "PRICE": "$2.22",
+            "MARKET_CAP": "$698,094,418"
+        }
+    },
+    {
+        "id": "67",
+        "coin": {
+            "NAME": "Maker",
+            "SYMBOL": "MKR",
+            "PRICE": "$705.95",
+            "MARKET_CAP": "$689,941,616"
+        }
+    },
+    {
+        "id": "68",
+        "coin": {
+            "NAME": "Injective",
+            "SYMBOL": "INJ",
+            "PRICE": "$8.23",
+            "MARKET_CAP": "$658,147,482"
+        }
+    },
+    {
+        "id": "69",
+        "coin": {
+            "NAME": "Terra Classic",
+            "SYMBOL": "LUNC",
+            "PRICE": "$0.0001115",
+            "MARKET_CAP": "$657,181,346"
+        }
+    },
+    {
+        "id": "70",
+        "coin": {
+            "NAME": "Bitcoin SV",
+            "SYMBOL": "BSV",
+            "PRICE": "$34.10",
+            "MARKET_CAP": "$656,966,286"
+        }
+    },
+    {
+        "id": "71",
+        "coin": {
+            "NAME": "Casper",
+            "SYMBOL": "CSPR",
+            "PRICE": "$0.05931",
+            "MARKET_CAP": "$651,193,967"
+        }
+    },
+    {
+        "id": "72",
+        "coin": {
+            "NAME": "GMX",
+            "SYMBOL": "GMX",
+            "PRICE": "$73.95",
+            "MARKET_CAP": "$641,696,757"
+        }
+    },
+    {
+        "id": "73",
+        "coin": {
+            "NAME": "Synthetix",
+            "SYMBOL": "SNX",
+            "PRICE": "$2.48",
+            "MARKET_CAP": "$642,166,868"
+        }
+    },
+    {
+        "id": "74",
+        "coin": {
+            "NAME": "Zcash",
+            "SYMBOL": "ZEC",
+            "PRICE": "$38.36",
+            "MARKET_CAP": "$626,301,258"
+        }
+    },
+    {
+        "id": "75",
+        "coin": {
+            "NAME": "Mina",
+            "SYMBOL": "MINA",
+            "PRICE": "$0.6815",
+            "MARKET_CAP": "$608,504,598"
+        }
+    },
+    {
+        "id": "76",
+        "coin": {
+            "NAME": "BitTorrent(New)",
+            "SYMBOL": "BTT",
+            "PRICE": "$0.000000634",
+            "MARKET_CAP": "$603,217,819"
+        }
+    },
+    {
+        "id": "77",
+        "coin": {
+            "NAME": "eCash",
+            "SYMBOL": "XEC",
+            "PRICE": "$0.00003015",
+            "MARKET_CAP": "$584,216,272"
+        }
+    },
+    {
+        "id": "78",
+        "coin": {
+            "NAME": "Huobi Token",
+            "SYMBOL": "HT",
+            "PRICE": "$3.52",
+            "MARKET_CAP": "$571,818,327"
+        }
+    },
+    {
+        "id": "79",
+        "coin": {
+            "NAME": "Dash",
+            "SYMBOL": "DASH",
+            "PRICE": "$50.69",
+            "MARKET_CAP": "$570,644,016"
+        }
+    },
+    {
+        "id": "80",
+        "coin": {
+            "NAME": "Frax Share",
+            "SYMBOL": "FXS",
+            "PRICE": "$7.93",
+            "MARKET_CAP": "$568,451,604"
+        }
+    },
+    {
+        "id": "81",
+        "coin": {
+            "NAME": "IOTA",
+            "SYMBOL": "MIOTA",
+            "PRICE": "$0.2024",
+            "MARKET_CAP": "$562,495,432"
+        }
+    },
+    {
+        "id": "82",
+        "coin": {
+            "NAME": "XDC Network",
+            "SYMBOL": "XDC",
+            "PRICE": "$0.0405",
+            "MARKET_CAP": "$560,348,223"
+        }
+    },
+    {
+        "id": "83",
+        "coin": {
+            "NAME": "PAX Gold",
+            "SYMBOL": "PAXG",
+            "PRICE": "$1,997.44",
+            "MARKET_CAP": "$542,075,313"
+        }
+    },
+    {
+        "id": "84",
+        "coin": {
+            "NAME": "PancakeSwap",
+            "SYMBOL": "CAKE",
+            "PRICE": "$2.72",
+            "MARKET_CAP": "$540,198,062"
+        }
+    },
+    {
+        "id": "85",
+        "coin": {
+            "NAME": "GateToken",
+            "SYMBOL": "GT",
+            "PRICE": "$5.32",
+            "MARKET_CAP": "$519,946,893"
+        }
+    },
+    {
+        "id": "86",
+        "coin": {
+            "NAME": "Trust Wallet Token",
+            "SYMBOL": "TWT",
+            "PRICE": "$1.20",
+            "MARKET_CAP": "$501,396,394"
+        }
+    },
+    {
+        "id": "87",
+        "coin": {
+            "NAME": "Gemini Dollar",
+            "SYMBOL": "GUSD",
+            "PRICE": "$1.01",
+            "MARKET_CAP": "$492,797,812"
+        }
+    },
+    {
+        "id": "88",
+        "coin": {
+            "NAME": "Loopring",
+            "SYMBOL": "LRC",
+            "PRICE": "$0.3475",
+            "MARKET_CAP": "$462,530,998"
+        }
+    },
+    {
+        "id": "89",
+        "coin": {
+            "NAME": "Flare",
+            "SYMBOL": "FLR",
+            "PRICE": "$0.03165",
+            "MARKET_CAP": "$463,787,257"
+        }
+    },
+    {
+        "id": "90",
+        "coin": {
+            "NAME": "WOO Network",
+            "SYMBOL": "WOO",
+            "PRICE": "$0.2716",
+            "MARKET_CAP": "$455,749,808"
+        }
+    },
+    {
+        "id": "91",
+        "coin": {
+            "NAME": "Zilliqa",
+            "SYMBOL": "ZIL",
+            "PRICE": "$0.02872",
+            "MARKET_CAP": "$455,767,814"
+        }
+    },
+    {
+        "id": "92",
+        "coin": {
+            "NAME": "THORChain",
+            "SYMBOL": "RUNE",
+            "PRICE": "$1.38",
+            "MARKET_CAP": "$448,870,966"
+        }
+    },
+    {
+        "id": "93",
+        "coin": {
+            "NAME": "dYdX",
+            "SYMBOL": "DYDX",
+            "PRICE": "$2.67",
+            "MARKET_CAP": "$417,432,732"
+        }
+    },
+    {
+        "id": "94",
+        "coin": {
+            "NAME": "SingularityNET",
+            "SYMBOL": "AGIX",
+            "PRICE": "$0.3404",
+            "MARKET_CAP": "$413,448,788"
+        }
+    },
+    {
+        "id": "95",
+        "coin": {
+            "NAME": "Nexo",
+            "SYMBOL": "NEXO",
+            "PRICE": "$0.7247",
+            "MARKET_CAP": "$405,850,368"
+        }
+    },
+    {
+        "id": "96",
+        "coin": {
+            "NAME": "Convex Finance",
+            "SYMBOL": "CVX",
+            "PRICE": "$5.27",
+            "MARKET_CAP": "$405,212,740"
+        }
+    },
+    {
+        "id": "97",
+        "coin": {
+            "NAME": "Kava",
+            "SYMBOL": "KAVA",
+            "PRICE": "$0.7961",
+            "MARKET_CAP": "$398,013,259"
+        }
+    },
+    {
+        "id": "98",
+        "coin": {
+            "NAME": "Enjin Coin",
+            "SYMBOL": "ENJ",
+            "PRICE": "$0.3938",
+            "MARKET_CAP": "$393,845,613"
+        }
+    },
+    {
+        "id": "99",
+        "coin": {
+            "NAME": "1inch Network",
+            "SYMBOL": "1INCH",
+            "PRICE": "$0.4799",
+            "MARKET_CAP": "$391,439,838"
+        }
+    },
+    {
+        "id": "100",
+        "coin": {
+            "NAME": "Osmosis",
+            "SYMBOL": "OSMO",
+            "PRICE": "$0.793",
+            "MARKET_CAP": "$390,636,544"
+        }
+    }
+]
