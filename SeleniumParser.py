@@ -10,7 +10,7 @@ browser.get("https://coinmarketcap.com/")
 
 for i in range(8):
     browser.execute_script("window.scrollBy(0, 1000);")
-    time.sleep(0.1)
+    # time.sleep(0.1)
 
 
 block = browser.find_element(By.TAG_NAME, 'tbody')
