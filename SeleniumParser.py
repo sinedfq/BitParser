@@ -10,7 +10,7 @@ browser.get("https://coinmarketcap.com/")
 
 for i in range(8):
     browser.execute_script("window.scrollBy(0, 1000);")
-    time.sleep(1)
+    time.sleep(0.1)
 
 
 block = browser.find_element(By.TAG_NAME, 'tbody')
@@ -35,7 +35,7 @@ for i in range(0, len(no_format_result_list), 5):
 for j, i in zip(range(100), range(0, len(no_format_result_list), 5)):
     result_dict[j]['id'] = no_format_result_list[i]
     result_dict[j]['coin'] = {}
-    result_dict[j]['coin']['NAME'] = no_format_result_list[i+1]
+    result_dict[j]['coin']["NAME"] = no_format_result_list[i+1]
     result_dict[j]['coin']['SYMBOL'] = no_format_result_list[i+2]
     result_dict[j]['coin']['PRICE'] = no_format_result_list[i+3]
     result_dict[j]['coin']['MARKET_CAP'] = no_format_result_list[i+4]
