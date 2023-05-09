@@ -4,6 +4,7 @@ from telebot import types
 import json as js
 import string as str
 
+
 bot = tb.TeleBot('6175663647:AAEbQ-yPVVz1UX33pINb-ktY3dkk1vmwoOM')
 
 
@@ -16,19 +17,17 @@ def developers(message):
     bot.reply_to(message, 'Список разработчиков', reply_markup=markup)
 
 
-@bot.message_handler(commands=['parse'])
+@bot.message_handler(commands=['start'])
 def parse(message):
     os.system("python SeleniumParser.py")
-    bot.reply_to(message, 'Готово!')
-
-
-@bot.message_handler(commands=['find', 'find'])
-def find(message):
+    markup = types.InlineKeyboardMarkup()
+    btn = types.InlineKeyboardButton('Вывод 10 элементов', callback_data='testname')
     markup = types.InlineKeyboardMarkup()
     btn1 = types.InlineKeyboardButton('Поиск по символу', callback_data='symbol')
     btn2 = types.InlineKeyboardButton('Поиск по названию', callback_data='name')
+    markup.row(btn)
     markup.row(btn1, btn2)
-    bot.reply_to(message, 'Как будем искать?', reply_markup=markup)
+    bot.reply_to(message, 'Готово', reply_markup=markup)
 
 
 @bot.callback_query_handler(func=lambda callback: True)
@@ -39,12 +38,29 @@ def callback_message(callback):
     if callback.data == 'name':
         bot.send_message(callback.from_user.id, "Введите название (Например: Bitcoin)")
         bot.register_next_step_handler(callback.message, find_by_name)
+    if callback.data == 'testname':
+        max_items = 0
+        with open("ParseResult.json") as jsondata:
+            data = js.load(jsondata)
+        for i in data:
+            if max_items >= 10:
+                break
+            names = "Название коина : " + i['coin']['NAME'] + "\n"
+            names += "Символ коина : " + i['coin']['SYMBOL'] + "\n"
+            names += "Цена коина : " + i['coin']['PRICE'] + "\n"
+            names += "Рынок : " + i['coin']['MARKET_CAP'] + "\n"
+            bot.send_message(callback.from_user.id, names)
+            max_items += 1
 
 
 @bot.message_handler(content_types=['text'])
 def find_by_symbol(message):
     global symbol;
+    flag = 0
     symbol = message.text.upper()
+    if symbol == emoji:
+        bot.send_message(message.from_user.id, "Не правильно введено имя")
+        find_by_symbol()
     with open("ParseResult.json") as jsondata:
         data = js.load(jsondata)
     for i in data:
@@ -54,10 +70,15 @@ def find_by_symbol(message):
             names += "Цена коина : " + i['coin']['PRICE'] + "\n"
             names += "Рынок : " + i['coin']['MARKET_CAP'] + "\n"
             bot.send_message(message.from_user.id, names)
+            flag = 1
+    else:
+        if flag == 0:
+            bot.send_message(message.from_user.id, "Не найдено")
 
 
 def find_by_name(message):
     global name;
+    flag = 0
     name = str.capwords(message.text)
     with open("ParseResult.json") as jsondata:
         data = js.load(jsondata)
@@ -68,6 +89,10 @@ def find_by_name(message):
             names += "Цена коина : " + i['coin']['PRICE'] + "\n"
             names += "Рынок : " + i['coin']['MARKET_CAP'] + "\n"
             bot.send_message(message.from_user.id, names)
+            flag = 1
+    else:
+        if flag == 0:
+            bot.send_message(message.from_user.id, "Не найдено")
 
 
 bot.polling(none_stop=True)
